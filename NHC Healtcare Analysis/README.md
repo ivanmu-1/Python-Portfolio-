@@ -52,8 +52,8 @@ This repository presents a series of Jupyter notebooks demonstrating core skills
 
 ## Notebooks Included
 
-- Data_Wrangling_&_Manipulation.ipynb
-- Pharmacy_Sales.ipynb
-- Patient_Visit_Analysis.ipynb
+- `Data_Wrangling_&_Manipulation.ipynb`
+- `Pharmacy_Sales.ipynb`
+- `Patient_Visit_Analysis.ipynb`
 
 Each notebook is self-contained and includes detailed comments and outputs to illustrate the analysis process.
