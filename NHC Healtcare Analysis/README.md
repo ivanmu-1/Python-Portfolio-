@@ -27,12 +27,12 @@ This repository presents a series of Jupyter notebooks demonstrating core skills
 ### 3. Patient Visit Analysis
 - **Objective**: Analyze hospital outpatient visit data to understand patient demographics, visit trends, and cost efficiency.
 - **Key Techniques**:
-  - Data preparation and cleaning
-  - Standardized hospital visit data (data formatting, missing values handling)
-  - Analyzed patient demographics by age, gender, and visit reason using visual plots.
-  - Investigated time-based trends in patient volumes and service delivery.
-  - Performed cost analysis involving patient expenses, insurance claims, and visit durations.
-  - Evaluated hospital performance through KPIs like treatment time and cost per visit
+   - Data preparation and cleaning
+   - Standardized hospital visit data (data formatting, missing values handling)
+   - Analyzed patient demographics by age, gender, and visit reason using visual plots.
+   - Investigated time-based trends in patient volumes and service delivery.
+   - Performed cost analysis involving patient expenses, insurance claims, and visit durations.
+   - Evaluated hospital performance through KPIs like treatment time and cost per visit
 
 ## Skills Demonstrated
 
