@@ -1,6 +1,6 @@
 # NHC Healthcare Data Analysis Project
 
-This repository presents a series of Jupyter notebooks demonstrating core skills in healthcare data analysis using Python. These projects were developed as practical exercises in data wrangling, exploratory analysis, visualization, and forecasting to derive insights from real-world healthcare datasets.
+This repository presents a series of Jupyter notebooks demonstrating core skills in healthcare data analysis using Python. These projects were developed as practical exercises in data wrangling, exploratory analysis, visualization, and forecasting to derive insights from healthcare datasets.
 
 ## Project Overview
 
