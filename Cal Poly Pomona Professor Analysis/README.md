@@ -35,14 +35,16 @@ This table stores individual reviews, linked to each professor by the foreign ke
 ### Tools Used
 
 * RStudio
-        - RSelenium
-        - Tidyverse
-        - dplyr
+  - RSelenium
+  - Tidyverse
+  - dplyr
 * Microsoft SQL Server
 * Excel
 * Instant Data Scrapper
 * Jupyter Notebook
 * Pandas
+* Mathplotlib
+* Seaborn
 
 ### Data Collection
 
