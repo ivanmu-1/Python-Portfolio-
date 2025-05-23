@@ -1,6 +1,9 @@
 # Cal Poly Pomona Professor Analysis
 This project is aimed at analyzing Cal Poly Pomona professor reviews from the website Rate My Professors. The project is currently in progress, and the data for reviews has been successfully collected and stored. We are now in the process of gathering individual professor data, which will be linked to the reviews table for further analysis.
 
+### This Project was done in collaboration with 
+- [Rodrigo Isidro](https://github.com/Rodgeroger) 
+
 ## Project Structure
 
 The project is organized around two primary tables:
@@ -50,4 +53,8 @@ This table stores individual reviews, linked to each professor by the foreign ke
 
 Data collection was primarily done with collaboration [Rodrigo Isidro](https://github.com/Rodgeroger). Data collection was done using two softwares. the first was Instant Data Scrapper for the professors table and RStudio for the reviews table. I used RSelenium and Tidyverse to gather and manipulate the data. Microsoft SQL will then be used for further analysis. R code used was originally written by Samer Hijjazi with minor modifications done by me. Original code is avaliable here. His Youtube video on how to setup RSelenium and video on his Ratemyprofessor project were a big help, along with his entire Youtube channel. For chromedriver troubles, ZeeCoding video was a huge help
 
-This Project was done in collaboration with [Rodrigo Isidro](https://github.com/Rodgeroger) 
+### Data Cleaning
+
+
+
+
