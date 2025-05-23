@@ -56,8 +56,11 @@ Data collection was primarily done with collaboration [Rodrigo Isidro](https://g
 ### Data Cleaning
 
 Data cleaning was primarily done using Pandas, with the goal of standardizing and cleaning the data extracted from the Instant Data Scraper. This involved two CSV files: the first containing general professor information from RateMyProfessor, and the second containing in-depth comments and the overall sentiment of each individual review. The cleaning process followed a basic data cleaning structure of loading the data, inspecting it, standardizing formats, handling missing values, removing duplicates, ensuring correct data types, and addressing outliers. After cleaning, the data was saved into new, cleaned CSV files. This step represents the 'Transform' stage of the ETL process. All cleaning procedures were applied to both datasets and are documented in the accompanying Jupyter notebook files. 
-[General RatemyProfessor data-cleaning script]()
-[Reviews data-cleaning script]()
+- [General RatemyProfessor data-cleaning script](https://github.com/ivanmu-1/Python-Portfolio/blob/main/Cal%20Poly%20Pomona%20Professor%20Analysis/RatemyProfessor.ipynb)
+- [Reviews data-cleaning script](https://github.com/ivanmu-1/Python-Portfolio/blob/main/Cal%20Poly%20Pomona%20Professor%20Analysis/Reviews.ipynb)
 
+### Exploratory Data Analysis (EDA)
+
+Basic EDA was performed in our General RateMyProfessor Jupyter notebooks to explore underlying trends and patterns in the data. Matplotlib and Seaborn were used for data visualization, while basic exploratory analysis was carried out using Pandas. However, more detailed pattern-based EDA was conducted within our SQL script, where we attempted to explore whether professors described as 'helpful' or 'clear' tend to receive higher ratings, and whether negative descriptors like 'unclear' or 'unhelpful' correlate with lower ratings. We also analyzed the relationship between the number of courses a professor teaches and their average rating, investigated rating trends over time (particularly for newer vs. longer-tenured professors), examined department-level performance, and explored the language used in highly positive vs. negative reviews to identify frequently used words and their connection to quality and difficulty ratings
 
 
