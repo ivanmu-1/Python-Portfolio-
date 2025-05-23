@@ -9,40 +9,40 @@ The project is organized around two primary tables:
 
 This table will store the following data for each professor:
 
-    Professor_ID: Unique identifier for each professor.
-    Professor_Name: Full name of the Professor.
-    Department: The department the professor belongs to
-    Total_Reviews: Total number of reviews the professor has received.
-    Avg_Rating: The average quality rating given to the professor (1.0-5.0).
-    Would_Take_Again: The percentage of students who would take the professor again.
-    Avg_Difficulty: The average difficulty rating of the professor’s courses (1.0-5.0).
+* ```Professor_ID```: Unique identifier for each professor.
+* ```Professor_Name```: Full name of the Professor.
+* ```Department```: The department the professor belongs to
+* ```Total_Reviews```: Total number of reviews the professor has received.
+* ```Avg_Rating```: The average quality rating given to the professor (1.0-5.0).
+* ```Would_Take_Again```: The percentage of students who would take the professor again.
+* ```Avg_Difficulty```: The average difficulty rating of the professor’s courses (1.0-5.0).
 
 ### Reviews Table
 
 This table stores individual reviews, linked to each professor by the foreign key, Professor_ID :
 
-    Professor_ID: Unique identifier for each professor.
-    Professor_Name: Full name of the Professor.
-    Class_Name: Class name for class student is reviewing
-    Department: The department the professor belongs to
-    Quality: The quality rating given by the student (1-5).
-    Difficulty: The difficulty rating given by the student (1-5).
-    Comment: The student's written feedback.
-    Thumbs_Up: The number of thumbs-up votes the review received.
-    Thumbs_Down: The number of thumbs-down votes the review received.
-    Review_Date: The date the review was posted on.
+* ```Professor_ID```: Unique identifier for each professor.
+* ```Professor_Name```: Full name of the Professor.
+* ```Class_Name```: Class name for class student is reviewing
+* ```Department```: The department the professor belongs to
+* ```Quality```: The quality rating given by the student (1-5).
+* ```Difficulty```: The difficulty rating given by the student (1-5).
+* ```Comment```: The student's written feedback.
+* ```Thumbs_Up```: The number of thumbs-up votes the review received.
+* ```Thumbs_Down```: The number of thumbs-down votes the review received.
+* ```Review_Date```: The date the review was posted on.
 
 ### Tools Used
 
-    RStudio
-        RSelenium
-        Tidyverse
-        dplyr
-    Microsoft SQL Server
-    Excel
-    Instant Data Scrapper
-    Jupyter Notebook
-        Pandas
+* RStudio
+        - RSelenium
+        - Tidyverse
+        - dplyr
+* Microsoft SQL Server
+* Excel
+* Instant Data Scrapper
+* Jupyter Notebook
+* Pandas
 
 ### Data Collection
 
