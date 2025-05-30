@@ -1,14 +1,14 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from dotenv import load_dotenv
+
 
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import CharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 
-load_dotenv()
+
 
 # Load and process data
 books = pd.read_csv("books_with_emotions.csv")
