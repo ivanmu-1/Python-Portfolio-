@@ -22,12 +22,12 @@ An exploratory data analysis project using Pandas, Matplotlib, and Seaborn to un
 
 ---
 
-### Semnatic Book Recommender with LLM's
+### Semantic Book Recommender with LLM's
 
 **Description:**  
 A semantic book recommendation project using Natural Language Processing, Large Language Models, and machine learning to suggest books based on the meaning and emotional tone of user queries. The project includes semantic search with vector embeddings, zero-shot text classification, and sentiment analysis, all integrated into an interactive Gradio-based web app for real-time, personalized recommendations
 
-[View the Semnatic Book Recommender with LLM's Project](https://github.com/ivanmu-1/Python-Portfolio/tree/main/Semantic%20Book%20Recommender)
+[View the Semantic Book Recommender with LLM's Project](https://github.com/ivanmu-1/Python-Portfolio/tree/main/Semantic%20Book%20Recommender)
 
 ---
 
