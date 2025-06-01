@@ -13,7 +13,7 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 
 ---
 
-#### *Notebooks*
+#### Notebooks
 
 1. `book_rec.ipnb`:
    - Text data cleaning: Preprocess and clean raw book description data for better analysis and model performance.
@@ -26,7 +26,7 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 
 ---
 
-#### *Installation*
+#### Installation
 1. Install required Python libraries:
    ```
    pip install -r requirements.txt
@@ -46,7 +46,7 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 
 ---
 
-#### *How It Works*: 
+#### How It Works
 1.  **Download the [Book Dataset](https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata)**
    - Load a curated dataset of book titles and descriptions from Kaggle
 3. **Preprocess Text Data**  
