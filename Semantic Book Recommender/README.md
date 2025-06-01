@@ -50,22 +50,16 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 
 1. **Download the [Book Dataset](https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata)**  
    - Load a curated dataset of book titles and descriptions from Kaggle.
-
 2. **Preprocess Text Data**  
    - Clean, normalize, and tokenize descriptions for consistent input to models.
-
 3. **Generate Embeddings**  
    - Use a transformer-based model (e.g., HuggingFace Transformers) to convert book descriptions into semantic vector embeddings.
-
 4. **Process User Queries**  
    - When a user inputs a query, it is embedded and compared against the book vectors using cosine similarity.
-
 5. **Zero-Shot Classification**  
    - LLMs are used to automatically assign genre and emotion categories to books without any labeled training data, enhancing recommendation relevance and diversity.
-
 6. **Classify and Filter**  
    - The top matches are optionally filtered or refined using genre and emotion outputs from zero-shot classification and sentiment analysis.
-
 7. **Display Results**  
    - Recommendations are presented in the Gradio UI with titles, genres, and sentiment tags.
 
