@@ -2,7 +2,7 @@
 
 This project aims to build a Semantic Book Recommender, an AI powered system designed to suggest books based on the semantic meaning and emotional tone of user queries. By leveraging advanced Natural Language Processing (NLP) techniques and Large Language Models (LLMs), the system moves beyond simple keyword matching to understand the deeper context and sentiment in both book descriptions and user inputs
 
----
+<img width="1448" alt="Image" src="https://github.com/user-attachments/assets/1eae284e-01ae-4b71-b015-a7862a531593" />
 
 ### Features
 
