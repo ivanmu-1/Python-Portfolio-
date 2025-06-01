@@ -25,3 +25,12 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
    ```
    pip install -r requirements.txt
 
+2. Clone the Repository:
+3. Set Up a virtual Environment:
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+5. Run the Gradio Dashboard:
+   ```
+   gradio_bashboard.py
