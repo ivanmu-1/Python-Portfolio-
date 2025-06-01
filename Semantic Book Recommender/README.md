@@ -43,7 +43,6 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 5. Run the Gradio Dashboard:
    ```
    gradio_bashboard.py
-
 ---
 
 #### How It Works
