@@ -22,5 +22,5 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 
 #### *Installation*
 1. Install required Python libraries:
-   `pip install -r requirements.txt`
+   ```pip install -r requirements.txt```
 
