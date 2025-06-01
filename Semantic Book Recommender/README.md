@@ -2,7 +2,7 @@
 
 This project aims to build a Semantic Book Recommender, an AI powered system designed to suggest books based on the semantic meaning and emotional tone of user queries. By leveraging advanced Natural Language Processing (NLP) techniques and Large Language Models (LLMs), the system moves beyond simple keyword matching to understand the deeper context and sentiment in both book descriptions and user inputs
 
---
+---
 
 ### Features
 
@@ -11,7 +11,7 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 * **Emotion and Sentiment Analysis**: Extracts emotional cues from text to help users find books that match a desired emotional tone or mood.
 * **Interactive Web Interface**: A Gradio-based application provides an intuitive dashboard for users to receive personalized book recommendations in real time.
 
---
+---
 
 #### *Notebooks*
 
@@ -24,7 +24,7 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 4. `sentiment_analysis.ipynb`:
    - Interactive Web Application: Create a user-friendly Gradio dashboard for live book recommendations based on input queries
 
---
+---
 
 #### *Installation*
 1. Install required Python libraries:
@@ -44,7 +44,7 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
    ```
    gradio_bashboard.py
 
---
+---
 
 #### *How It Works*: 
 1.  **Download the [Book Dataset](https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata)**
