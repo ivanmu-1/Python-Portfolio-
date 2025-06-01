@@ -26,7 +26,10 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
    pip install -r requirements.txt
 2. Clone the Repository:
    ```
-   
+   git clone --filter=blob:none --sparse https://github.com/ivanmu-1/python-portfolio.git
+   cd python-portfolio
+   git sparse-checkout init --cone
+   git sparse-checkout set Semantic Book Recommender
 4. Set Up a virtual Environment:
    ```
    python -m venv venv
@@ -34,3 +37,19 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 5. Run the Gradio Dashboard:
    ```
    gradio_bashboard.py
+
+#### *How It Works*: 
+1.  **Download the Book Dataset**  
+   - Load a curated dataset of book titles and descriptions from Kaggle
+2. **Preprocess Text Data**  
+   - Clean, normalize, and tokenize descriptions for consistent input to models.
+3. **Generate Embeddings**  
+   - Use a transformer-based model (HuggingFace Transformers) to convert book descriptions into semantic vector embeddings.
+4. **Process User Queries**  
+   - When a user inputs a query, it is embedded and compared against the book vectors using cosine similarity.
+5. **Zero-Shot Classification**  
+   - LLMs are used to automatically assign genre and emotion categories to books without any labeled training data, enhancing recommendation relevance and diversity. 
+6. **Classify and Filter**  
+   - The top matches are optionally filtered or categorized using zero-shot classification and sentiment analysis.
+7. **Display Results**  
+   - Recommendations are presented in the Gradio UI with titles, genres, and sentiment labels.
