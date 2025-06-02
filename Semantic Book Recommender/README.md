@@ -9,7 +9,7 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 * **Semantic Search with Vector Embeddings**: Book descriptions are transformed into vector representations, enabling similarity-based search that captures meaning rather than just keywords.
 * **Zero-Shot Text Classification**: Books are categorized as "fiction" or "nonfiction" using LLMs without the need for labeled training data.
 * **Emotion and Sentiment Analysis**: Extracts emotional cues from text to help users find books that match a desired emotional tone or mood.
-* **Interactive Web Interface**: A Gradio-based application provides an intuitive dashboard for users to receive personalized book recommendations in real time.
+* **Interactive Web Interface**: A Gradio-based application provides an dashboard for users to receive personalized book recommendations in real time.
 
 ---
 
@@ -22,7 +22,7 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 3. `text_classification.ipynb`:
    - Text Classification with Zero-Shot Learning: Use LLMs to classify books as "fiction" or "nonfiction" without traditional training data.
 4. `sentiment_analysis.ipynb`:
-   - Interactive Web Application: Create a user-friendly Gradio dashboard for live book recommendations based on input queries
+   - Sentiment_Analysis: Use zero-shot text classification to classify description context into distinct emotion categories.
 
 ---
 
@@ -48,11 +48,11 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 #### How It Works
 
 1. **Download the [Book Dataset](https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata)**  
-   - Load a curated dataset of book titles and descriptions from Kaggle.
+   - Load a dataset of book titles, isbn's, descriptions, and more from Kaggle.
 2. **Preprocess Text Data**  
    - Clean, normalize, and tokenize descriptions for consistent input to models.
 3. **Generate Embeddings**  
-   - Use a transformer-based model (e.g., HuggingFace Transformers) to convert book descriptions into semantic vector embeddings.
+   - Use a transformer-based model (e.g. HuggingFace Transformers) to convert book descriptions into semantic vector embeddings.
 4. **Process User Queries**  
    - When a user inputs a query, it is embedded and compared against the book vectors using cosine similarity.
 5. **Zero-Shot Classification**  
@@ -60,5 +60,5 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 6. **Classify and Filter**  
    - The top matches are optionally filtered or refined using genre and emotion outputs from zero-shot classification and sentiment analysis.
 7. **Display Results**  
-   - Recommendations are presented in the Gradio UI with titles, genres, and sentiment tags.
+   - Recommendations are presented in the Gradio UI with titles, genres, and sentiment labels.
 
