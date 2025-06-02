@@ -63,4 +63,27 @@ Data cleaning was primarily done using Pandas, with the goal of standardizing an
 
 Basic EDA was performed in our General RateMyProfessor Jupyter notebooks to explore underlying trends and patterns in the data. Matplotlib and Seaborn were used for data visualization, while basic exploratory analysis was carried out using Pandas. However, more detailed pattern-based EDA was conducted within our SQL script, where we attempted to explore whether professors described as 'helpful' or 'clear' tend to receive higher ratings, and whether negative descriptors like 'unclear' or 'unhelpful' correlate with lower ratings. We also analyzed the relationship between the number of courses a professor teaches and their average rating, investigated rating trends over time (particularly for newer vs. longer-tenured professors), examined department-level performance, and explored the language used in highly positive vs. negative reviews to identify frequently used words and their connection to quality and difficulty ratings
 
+### Data Analysis Observations 
+
+Data Analysis was primarily done using SQL, Pandas, Seaborn, Matplotlib.
+
+Observations:
+
+  - Clear positive shew - Professors have an high amount of 5's.
+  - Majority of Professors have rating between 3 and 5
+  - As Avg_Difficulty increase, Avg_rating begins to drop
+  - A lower Avg_Difficulty correlates to an higher Avg_rating score
+  - "Excellent" Rating are most common among Professors, while "Hard" Difficulty has the fewest professors
+  - "Moderate" and "Challenging" difficulty contains the widest spread across all rating categories
+  - "Moderate" and "Excellent" contains the highest count
+
+Takeaway:
+
+  - The majority of professors at Cal Poly Pomona tend to receive high ratings, indicating generally positive student feedback across the board.
+  - Easier Professor tend to be rated more favorably, suggesting that student satisfaction is directly influenced by difficulty.
+  - Moderate difficulty seems to be the sweet spot, balancing student satisfaction with academic rigor.
+  - Professors who are perceived as very hard struggle to earn high ratings, possibly due to workload or grading policies.
+  - Easier classes often correlate with higher ratings, but not exclusively — students still value teaching quality, not just ease
+
+
 
