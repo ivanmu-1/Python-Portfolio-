@@ -8,8 +8,8 @@ This project aims to build a Semantic Book Recommender, an AI powered system des
 
 * **Semantic Search with Vector Embeddings**: Book descriptions are transformed into vector representations, enabling similarity-based search that captures meaning rather than just keywords.
 * **Zero-Shot Text Classification**: Books are categorized as "fiction" or "nonfiction" using LLMs without the need for labeled training data.
-* **Emotion and Sentiment Analysis**: Extracts emotional cues from text to help users find books that match a desired emotional tone or mood.
-* **Interactive Web Interface**: A Gradio-based application provides an dashboard for users to receive personalized book recommendations in real time.
+* **Emotion and Sentiment Analysis**: Extracts emotional context from text to help users find books that match a desired emotional tone or mood.
+* **Interactive Web Interface**: A Gradio-based application provides an dashboard for users to receive personalized book recommendations in real time based on general sentiment (e.g. "A book about love").
 
 ---
 
