@@ -9,7 +9,7 @@ This portfolio showcases a collection of Python-based data science projects, hig
 **Description:**  
 A Python ETL project that performs web scraping using BeautifulSoup to extract data from websites, transforms the data with Pandas through cleaning, formatting, structuring, and exploratory visualization using Seaborn and Matplotlib, and then writes the transformed data into an SQL script for further analysis and insight generation 
 
-[View the Cal Poly Pomona Professor Project](https://github.com/ivanmu-1/Python-Portfolio/tree/main/Cal%20Poly%20Pomona%20Professor%20Analysis)
+[View the Cal Poly Pomona Professor Project](https://github.com/ivanmu-1/Cal-Poly-Pomona-Professor-Analysis)
 
 ---
 
